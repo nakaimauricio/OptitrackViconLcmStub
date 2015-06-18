@@ -1,4 +1,4 @@
-# NatNetLinux
+# OVLS aka Optitrack Vicon LCM Stub
 
 The purpose of this piece of software is to provide a STUB (aka adapter) for LCM
 (Lightweight Communication and Masrhalling) that acquire from an Optitrack MOCAP system
@@ -28,7 +28,7 @@ http://www.gnu.org/copyleft/gpl.html
 
 * `cmake` - version 2.8 or later
 * `boost` - with `system` and `thread` components
-*  lcm
+*  `lcm`
 
 ## Installation
 
@@ -36,9 +36,9 @@ http://www.gnu.org/copyleft/gpl.html
 
 * compile it
 ```
-mkdir build
-cd build
-cmake ..
-make
+  mkdir build
+  cd build
+  cmake ..
+  make
 ```
 
