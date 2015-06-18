@@ -1,0 +1,3 @@
+
+ADD_EXECUTABLE( ovls "OptitrackViconLcmStub.cpp" )
+TARGET_LINK_LIBRARIES( ovls ${Boost_LIBRARIES} ${LCM_LIBRARY_OPTIMIZED})
