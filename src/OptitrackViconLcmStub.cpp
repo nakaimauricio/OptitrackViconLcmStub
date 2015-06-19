@@ -156,7 +156,7 @@ void printFrames(FrameListener& frameListener)
 	 }		
 
 	
-	
+/*** TEST PART	
 	 mocap_data_single.timestamp = 0;
 	 mocap_data_single.q[0] = 0;
          mocap_data_single.q[1] = 0;
@@ -166,7 +166,7 @@ void printFrames(FrameListener& frameListener)
 	 mocap_data_single.q[5] = 0;
 
 	 lcmobj.publish("MOCAP",&mocap_data_single);
-
+***/
 	 std::cout << frame << std::endl;
       }
       
